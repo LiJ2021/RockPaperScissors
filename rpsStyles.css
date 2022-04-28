@@ -40,3 +40,9 @@ margin: 13px;
     justify-content: center;
     align-items: center;
 }
+button {
+    width: 110px;
+    height: 30px;
+    font-size: 21px;
+    cursor: pointer;
+}

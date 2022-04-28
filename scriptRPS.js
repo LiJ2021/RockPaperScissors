@@ -72,3 +72,9 @@ const computersAnswer = Math.floor(Math.random() * 3)
 
 
 }
+
+/*is what Im running into similar to what Cory displayed? Do I need to clear something so scissors can be selected?
+function submitOption(userSelection) {
+      document.querySelector('body').classList.remove('1', '2', '3')
+document.querySelector('body').classList.add(userSelection)
+}
