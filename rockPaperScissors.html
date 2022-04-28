@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rpsStyles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <form  id="form" name="rpsForm">
+        <!-- may be to be included in form tag?:
+            onsubmit="submitOption()"  -->
+    <div class="container">
+    <div class="grid-container">
+        <img src="smooth-gray-sea-stone-isolated-on-white-background.webp" alt="Rock Image">
+        <br>
+        <!--<input type="radio" id="rock" name="options" >
+            <label for="rock">Rock</label>
+        may be to be included in input tag?:
+        onclick = "submitOption(1)" else, change it to a -->
+    <button onclick = "submitOption(1)">Rock</button>
+        
+
+    </div>
+    <div class="grid-container">
+        <img src="paper-digital-white.jpeg" alt="Paper Image">
+        <br>
+        <!-- <input type="radio" id="paper" name="options">
+        <label for="paper">Paper</label> -->
+        <!-- may be to be included in input tag?:
+        onclick = "submitOption(2)" else, change it to a -->
+    <button onclick = "submitOption(2)">Paper</button>
+       
+        
+    </div>
+    <div class="grid-container">
+        <img src="25-InchSilverScissorsLg.jpeg" alt="Scissors Image">
+        <br>
+        <!-- <input type="radio" id="scissors" name="options" >
+        <label for="scissors">Scissors</label> -->
+        <!-- may be to be included in input tag?:
+        onclick = "submitOption(3)" else, change it to a -->
+    <button onclick = "submitOption(3)">Scissors</button>
+        
+    </div>
+    <!-- <br>
+    <button id="submitOption" onclick="submitOption()">Submit Option</button> -->
+    <!-- when button is clidked, i want the selection to be passed into js that compares it to a randomly generated "auto response" -->
+
+</div>
+</form>
+
+</body>
+<script src="scriptRPS.js"></script>
+</html>
