@@ -28,18 +28,18 @@ const computersAnswer = Math.floor(Math.random() * 3)
        
         alert("Tie! try again")
         } 
-        else if (userSelection === 0 && computersAnswer === 1) {
+     else if (userSelection === 0 && computersAnswer === 1) {
         
         alert("Paper Covers Rock! Computer Wins!")
         }
-        else if (userSelection === 0 && computersAnswer === 2) {
+    else if (userSelection === 0 && computersAnswer === 2) {
        
         alert("Rock Crushes Scissors! Player Wins!")
         }
     
 
 //for paper 
-    if (userSelection === 1 && computersAnswer === 0) {
+        else if (userSelection === 1 && computersAnswer === 0) {
     
      alert("Paper Covers Rock! Player Wins!")
         } 
@@ -56,10 +56,9 @@ const computersAnswer = Math.floor(Math.random() * 3)
 
 //for scissors 
 
-    if (userSelection === 2 && computersAnswer === 0) {
+    else if (userSelection === 2 && computersAnswer === 0) {
    
     alert("Rock crushes Scissors! Computer Wins!")
-    return
     } 
     else if (userSelection === 2 && computersAnswer === 1) {
        
@@ -77,4 +76,7 @@ const computersAnswer = Math.floor(Math.random() * 3)
 function submitOption(userSelection) {
       document.querySelector('body').classList.remove('1', '2', '3')
 document.querySelector('body').classList.add(userSelection)
-}
+} replacing 'body' with 'form' ? does that matter?
+continue to tweak it
+is it a  precedence issue?
+*/
